@@ -1,0 +1,13 @@
+[book]
+authors = ["Nikitat0"]
+language = "ru"
+multilingual = false
+src = "src"
+title = "NSU Math"
+
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
+
+[output.html]
+mathjax-support = true
